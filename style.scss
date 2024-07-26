@@ -1,0 +1,23 @@
+/* Global Poppins Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+// @import "node_modules/bootstrap/scss/variables";
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #5042c7;
+}
+
+img {
+    width: 100%;
+}
+
+// * Bootstrap Customization
