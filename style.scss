@@ -1,5 +1,6 @@
 /* Global Poppins Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 // @import "node_modules/bootstrap/scss/variables";
 * {
   margin: 0;
@@ -12,12 +13,26 @@
   font-family: "Poppins", sans-serif;
 }
 
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .hero-message {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
 :root {
-    --primary-color: #5042c7;
+  --primary-color: #252053;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 // * Bootstrap Customization
