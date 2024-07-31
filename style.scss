@@ -15,15 +15,17 @@
 
 .hero-section {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   .hero-message {
+    width: 90%;
     margin-top: 2rem;
     text-align: center;
+    text-wrap: wrap;
   }
 }
 
